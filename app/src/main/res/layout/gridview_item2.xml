@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="60dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@drawable/luck_item_bg1"
+    android:layout_height="100dp">
+    <ImageView
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/prize_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="45dp"
+        android:layout_height="75dp" />
+    <TextView
+        android:id="@+id/title"
+        android:text="白金会员3天"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/prize_image"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp" />
+</RelativeLayout>
